@@ -1,0 +1,10 @@
+body {
+    background: #f8f9fa;
+    text-align: center;
+    padding-top: 50px;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding-top: 20px;
+}
