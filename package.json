@@ -1,0 +1,22 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r # sit725\r =======\r Basic Javascript program.\r >>>>>>> 5856b3e727656bdab093810e885d6492677c934c",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Manojkolindala/sit725.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manojkolindala/sit725/issues"
+  },
+  "homepage": "https://github.com/Manojkolindala/sit725#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
