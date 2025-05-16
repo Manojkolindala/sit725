@@ -1,0 +1,49 @@
+{
+    "info": {
+      "_postman_id": "b1234567-c123-4bcd-b456-12345678abcd",
+      "name": "SmartBarterHub API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Get All Barters",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/api/barters",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["api", "barters"]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Post a New Barter",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"item\": \"Old Laptop\",\n  \"description\": \"Want a gaming console\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:3000/api/barters",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["api", "barters"]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  
